@@ -624,6 +624,9 @@ var offsetWithoutDaylightSaving =  '2017-12-10T15:26-0400'
 ### Daylight Saving Time
 It's important to remember that UTC is different in the USA any given date, depending on if we are in the middle of daylight saving or not.
 
+### Server-Side Reference
+
+[Newtownsoft has published a helpful article](http://james.newtonking.com/archive/2009/02/20/good-date-times-with-json-net) that will assist the server-side team on implementing the ISO 8601 format. This uses an instance of `IsoDateTimeConverter` to set the format.
 
 ## On-Failure
 
